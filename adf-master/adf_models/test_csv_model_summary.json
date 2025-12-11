@@ -1,0 +1,32 @@
+{
+  "model_type": "adf_test",
+  "regression": "c",
+  "max_lags": 5,
+  "lags_method": "aic",
+  "training_time": "2025-09-30T13:54:46.056345",
+  "data_summary": {
+    "n_series": 2,
+    "length": 20,
+    "data_type": "multiple_series",
+    "has_labels": true,
+    "nan_ratio": 0.0,
+    "value_range": {
+      "min": 1.1,
+      "max": 2.6,
+      "mean": 1.8599999999999999,
+      "std": 0.45376205218153715
+    },
+    "series_ids": [
+      "series1",
+      "series2"
+    ]
+  },
+  "test_results": {
+    "total_series": 2,
+    "successful_tests": 2,
+    "failed_tests": 0,
+    "stationary_count": 1,
+    "non_stationary_count": 1,
+    "stationary_ratio": 0.5
+  }
+}
